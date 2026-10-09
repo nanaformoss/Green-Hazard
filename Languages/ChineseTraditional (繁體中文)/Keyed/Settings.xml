@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 分頁與按鈕 -->
+  <ToxicFlora_TabFlora>植物過敏與中毒</ToxicFlora_TabFlora>
+  <ToxicFlora_TabTree>砍樹意外</ToxicFlora_TabTree>
+  <ToxicFlora_ResetTab>重設此分頁</ToxicFlora_ResetTab>
+  <ToxicFlora_ResetTabTip>把目前這個分頁恢復成「一般難度」的數值</ToxicFlora_ResetTabTip>
+  <ToxicFlora_BtnNormal>一般難度</ToxicFlora_BtnNormal>
+  <ToxicFlora_BtnNormalTip>套用全部「一般難度」數值：\n採收過敏 0.2%、動物每口 0.08%\n砍樹打滑 1% → 0.2%、被砸 1% → 0.2%</ToxicFlora_BtnNormalTip>
+  <ToxicFlora_BtnHard>困難模式</ToxicFlora_BtnHard>
+  <ToxicFlora_BtnHardTip>套用全部「困難模式」數值：\n採收過敏 1%、動物每口 0.10%，中毒後 25% 狂暴\n砍樹打滑 5% → 0.2%、被砸 2% → 0.2%</ToxicFlora_BtnHardTip>
+
+  <!-- 植物過敏與中毒 -->
+  <ToxicFlora_EnableHumanAllergy>啟用人類採收過敏</ToxicFlora_EnableHumanAllergy>
+  <ToxicFlora_HarvestAllergyChance>每次採收的過敏機率:</ToxicFlora_HarvestAllergyChance>
+  <ToxicFlora_FreqHarvest>次採收</ToxicFlora_FreqHarvest>
+  
+  <ToxicFlora_EnableAnimalPoison>啟用動物啃草中毒</ToxicFlora_EnableAnimalPoison>
+  <ToxicFlora_AnimalGrazeChance>每啃一口草的中毒機率:</ToxicFlora_AnimalGrazeChance>
+  <ToxicFlora_FreqGraze>口草</ToxicFlora_FreqGraze>
+  <ToxicFlora_PoisonBranch>中毒後變成劇毒的機率:</ToxicFlora_PoisonBranch>
+  <ToxicFlora_MadnessChance>中毒後變成狂暴的機率:</ToxicFlora_MadnessChance>
+  <ToxicFlora_MildLabel>其餘為輕微腸胃炎:</ToxicFlora_MildLabel>
+  <ToxicFlora_MildTooltip>由上面兩項自動計算（100% 減去劇毒與狂暴），不能手動調整</ToxicFlora_MildTooltip>
+
+  <!-- 動物中毒與發瘋事件 -->
+  <ToxicFlora_PoisonMsg>{0} 吃到了致命毒草，情況危急！</ToxicFlora_PoisonMsg>
+  <ToxicFlora_MadnessReason>吃到神經毒草</ToxicFlora_MadnessReason>
+  <ToxicFlora_MadnessLetterLabel>動物狂暴：{0}</ToxicFlora_MadnessLetterLabel>
+  <ToxicFlora_MadnessLetterText_Tame>你的 {0} 吃到了含有強烈神經毒素的野草，已經完全陷入狂暴！\n\n牠會主動攻擊視野內的所有人類，請盡速武裝殖民者或將其擊斃，直到毒素消退為止！</ToxicFlora_MadnessLetterText_Tame>
+  <ToxicFlora_MadnessLetterText_Wild>野外的 {0} 吃到了含有強烈神經毒素的野草，已經完全陷入狂暴！\n\n牠會主動攻擊視野內的所有人類，請盡速武裝殖民者或將其擊斃，直到毒素消退為止！</ToxicFlora_MadnessLetterText_Wild>
+
+  <!-- 砍樹意外 -->
+  <ToxicFlora_EnableTreeSlip>啟用砍樹斧頭打滑</ToxicFlora_EnableTreeSlip>
+  <ToxicFlora_TreeSlipNoSkill>打滑機率 (種植 0 級):</ToxicFlora_TreeSlipNoSkill>
+  <ToxicFlora_TreeSlipMaxSkill>打滑機率 (種植 20 級):</ToxicFlora_TreeSlipMaxSkill>
+  <ToxicFlora_FreqTree>棵樹</ToxicFlora_FreqTree>
+  
+  <ToxicFlora_EnableTreeHit>啟用被倒下的樹砸中</ToxicFlora_EnableTreeHit>
+  <ToxicFlora_TreeHitNoSkill>被砸中機率 (種植 0 級):</ToxicFlora_TreeHitNoSkill>
+  <ToxicFlora_TreeHitMaxSkill>被砸中機率 (種植 20 級):</ToxicFlora_TreeHitMaxSkill>
+  <ToxicFlora_TreeHeadHitShare>被砸中時，打到頭部的比例:</ToxicFlora_TreeHeadHitShare>
+
+  <!-- 伐木意外提示訊息 -->
+  <ToxicFlora_TreeSlipMsg>{0} 在砍樹時不慎讓工具滑脫，割傷了自己！</ToxicFlora_TreeSlipMsg>
+  <ToxicFlora_TreeHitMsg>{0} 在砍樹時閃避不及，被倒下的樹幹砸傷了！</ToxicFlora_TreeHitMsg>
+  <ToxicFlora_TreeHeadMsg>{0} 在砍樹時被倒下的樹幹重擊了頭部！</ToxicFlora_TreeHeadMsg>
+  <ToxicFlora_TreeHeadLabel>伐木意外</ToxicFlora_TreeHeadLabel>
+  <ToxicFlora_TreeHeadText>{0} 在砍樹時頭部遭到倒下的樹幹重擊，身受重傷。</ToxicFlora_TreeHeadText>
+
+  <!-- 過敏提示訊息 -->
+  <ToxicFlora_AllergyMsg>{0} 因大量接觸植物的毒性物質與粉塵，誘發了過敏反應。</ToxicFlora_AllergyMsg>
+
+  <!-- 通用格式 -->
+  <ToxicFlora_AverageFreq>平均約每 {0} {1}發生一次</ToxicFlora_AverageFreq>
+  <ToxicFlora_NeverOccur>不會發生</ToxicFlora_NeverOccur>
+</LanguageData>

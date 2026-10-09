@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Tabs & Buttons -->
+  <ToxicFlora_TabFlora>Flora Allergies &amp; Poisons</ToxicFlora_TabFlora>
+  <ToxicFlora_TabTree>Woodcutting Accidents</ToxicFlora_TabTree>
+  <ToxicFlora_ResetTab>Reset this tab</ToxicFlora_ResetTab>
+  <ToxicFlora_ResetTabTip>Reset the current tab to "Normal" difficulty values.</ToxicFlora_ResetTabTip>
+  <ToxicFlora_BtnNormal>Normal</ToxicFlora_BtnNormal>
+  <ToxicFlora_BtnNormalTip>Apply all "Normal" values:\nHarvest Allergy 0.2%, Animal Bite 0.08%\nAxe Slip 1% -> 0.2%, Tree Hit 1% -> 0.2%</ToxicFlora_BtnNormalTip>
+  <ToxicFlora_BtnHard>Hard Mode</ToxicFlora_BtnHard>
+  <ToxicFlora_BtnHardTip>Apply all "Hard Mode" values:\nHarvest Allergy 1%, Animal Bite 0.10%, 25% madness\nAxe Slip 5% -> 0.2%, Tree Hit 2% -> 0.2%</ToxicFlora_BtnHardTip>
+
+  <!-- Flora Tab -->
+  <ToxicFlora_EnableHumanAllergy>Enable harvest allergies</ToxicFlora_EnableHumanAllergy>
+  <ToxicFlora_HarvestAllergyChance>Allergy chance per harvest:</ToxicFlora_HarvestAllergyChance>
+  <ToxicFlora_FreqHarvest>harvests</ToxicFlora_FreqHarvest>
+  
+  <ToxicFlora_EnableAnimalPoison>Enable animal grazing poisons</ToxicFlora_EnableAnimalPoison>
+  <ToxicFlora_AnimalGrazeChance>Poison chance per bite:</ToxicFlora_AnimalGrazeChance>
+  <ToxicFlora_FreqGraze>bites</ToxicFlora_FreqGraze>
+  <ToxicFlora_PoisonBranch>Chance of lethal toxin upon poisoning:</ToxicFlora_PoisonBranch>
+  <ToxicFlora_MadnessChance>Chance of manhunter madness upon poisoning:</ToxicFlora_MadnessChance>
+  <ToxicFlora_MildLabel>Remaining chance for mild gastroenteritis:</ToxicFlora_MildLabel>
+  <ToxicFlora_MildTooltip>Automatically calculated from the two settings above (100% minus lethal and madness).</ToxicFlora_MildTooltip>
+
+  <!-- Animal Poison and Madness Events -->
+  <ToxicFlora_PoisonMsg>{0} has ingested a lethal toxic plant!</ToxicFlora_PoisonMsg>
+  <ToxicFlora_MadnessReason>ate neurotoxic flora</ToxicFlora_MadnessReason>
+  <ToxicFlora_MadnessLetterLabel>Animal Madness: {0}</ToxicFlora_MadnessLetterLabel>
+  <ToxicFlora_MadnessLetterText_Tame>Your {0} ate highly neurotoxic flora and has gone completely mad!\n\nIt will attack any human on sight. Arm your colonists or put it down until the toxins wear off!</ToxicFlora_MadnessLetterText_Tame>
+  <ToxicFlora_MadnessLetterText_Wild>A wild {0} ate highly neurotoxic flora and has gone completely mad!\n\nIt will attack any human on sight. Arm your colonists or put it down until the toxins wear off!</ToxicFlora_MadnessLetterText_Wild>
+
+  <!-- Tree Tab -->
+  <ToxicFlora_EnableTreeSlip>Enable axe slipping</ToxicFlora_EnableTreeSlip>
+  <ToxicFlora_TreeSlipNoSkill>Slip chance (Plants Lv. 0):</ToxicFlora_TreeSlipNoSkill>
+  <ToxicFlora_TreeSlipMaxSkill>Slip chance (Plants Lv. 20):</ToxicFlora_TreeSlipMaxSkill>
+  <ToxicFlora_FreqTree>trees</ToxicFlora_FreqTree>
+  
+  <ToxicFlora_EnableTreeHit>Enable falling tree injuries</ToxicFlora_EnableTreeHit>
+  <ToxicFlora_TreeHitNoSkill>Hit chance (Plants Lv. 0):</ToxicFlora_TreeHitNoSkill>
+  <ToxicFlora_TreeHitMaxSkill>Hit chance (Plants Lv. 20):</ToxicFlora_TreeHitMaxSkill>
+  <ToxicFlora_TreeHeadHitShare>Proportion of injuries hitting the head:</ToxicFlora_TreeHeadHitShare>
+
+  <!-- Tree Accidents Messages -->
+  <ToxicFlora_TreeSlipMsg>{0}'s axe slipped while chopping and cut themselves!</ToxicFlora_TreeSlipMsg>
+  <ToxicFlora_TreeHitMsg>{0} was hit by a falling tree!</ToxicFlora_TreeHitMsg>
+  <ToxicFlora_TreeHeadMsg>{0} was struck on the head by a falling tree!</ToxicFlora_TreeHeadMsg>
+  <ToxicFlora_TreeHeadLabel>Tree accident</ToxicFlora_TreeHeadLabel>
+  <ToxicFlora_TreeHeadText>{0} was struck on the head by a falling tree while chopping and is badly hurt.</ToxicFlora_TreeHeadText>
+
+  <!-- Allergy Messages -->
+  <ToxicFlora_AllergyMsg>{0} had an allergic reaction while harvesting.</ToxicFlora_AllergyMsg>
+
+  <!-- General Formats -->
+  <ToxicFlora_AverageFreq>Avg. 1 occurrence per {0} {1}</ToxicFlora_AverageFreq>
+  <ToxicFlora_NeverOccur>Never occurs</ToxicFlora_NeverOccur>
+</LanguageData>

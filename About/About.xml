@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Green Hazard: Toxic Flora and Woodcutting《綠色殺機：毒草與伐木》</name>
+  <author>NaNa</author>
+  <packageId>nana.greenhazard</packageId>
+
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+
+  <description>English below / 中文說明在下方（請往下捲動）
+
+
+
+==================== English ====================
+
+"I sent a pawn to chop wood for a bed, and the axe slipped. Another got a concussion from a falling tree. My grazing cow ate toxic flora and dropped dead."
+
+Make the wilderness dangerous again. Harvesting, grazing and woodcutting now carry a very small, unpredictable risk of accidents. No warnings, just RimWorld.
+
+[ Human: Harvest Allergy ]
+・0.2% chance per harvest to trigger an allergic reaction (avg. 1 in 500).
+・Reduces breathing and manipulation.
+・Recovers naturally in 1-2 days.
+・Grants antibodies for 3-5 days after recovery.
+・Reduces future allergy chances by 90% during this period.
+
+[ Animal: Grazing Poison ]
+・0.08% chance per bite of grass to ingest toxic flora (affects wild animals too).
+・Results vary based on probability:
+  - 80% Mild Gastroenteritis: Vomiting and sluggishness; recovers in half a day.
+  - 10% Neurotoxin: Triggers manhunter madness for 12-24 hours.
+  - 10% Lethal Toxin: Condition worsens continuously, fatal in about two days; requires constant veterinary care to suppress.
+・Grants adaptation for 3-5 days after recovery, reducing future poison chances by 80%.
+
+[ Woodcutting Accidents ]
+・Axe Slip: Chance to cut oneself while chopping trees, causing bleeding and potential infection.
+・Falling Tree: Falling trees can crush pawns.
+・30% chance to hit the head (causing concussions or knockout), triggering an alert.
+・Accident chance scales inversely with Plants skill (Lv.0 1% -> Lv.20 0.2%).
+・Accidents leave a record in the health tab, disappearing after 15-30 days.
+
+[ Settings ]
+・All 4 features can be toggled individually, and all probabilities are fully adjustable via sliders.
+・Reset options available for individual tabs or all default settings.
+・Safe to add to existing save games.
+
+
+
+==================== 中文 ====================
+
+《绿色杀机：毒草与伐木》
+
+
+「我叫小人去砍点木头做床，结果斧头打滑大量出血，另一个被倒下的树砸成脑震荡；放出去吃草的牛还吃到了毒草直接猝死。」
+
+让野外不再人畜无害。收获、啃草、砍树，都有极小的概率出事，事前没有征兆。
+
+【人类：收获过敏】
+・每次收获有 0.2% 的概率过敏（约 500 次一次）
+・过敏会降低呼吸与操作能力
+・ 1～2 天后自然痊愈
+・痊愈后 3～5 天内有抗体
+・期间再次过敏的概率降低 90%
+
+【动物：啃草中毒】
+・动物每啃一口有 0.08% 的概率中毒（野生动物也会）
+・中毒后依概率分为三种结果：
+    - 80% 轻微胃肠炎：呕吐、行动迟缓，半天内自行康复
+    - 10% 神经毒素：陷入狂暴 12～24 小时
+    - 10% 剧毒：若持续恶化约两天致死，需兽医治疗才能压制
+・痊愈后 3～5 天内有适应期，期间中毒概率降低 80%
+
+【砍树意外】
+・斧头打滑：砍树时可能割伤自己，处理不当会感染
+・被树砸中：倒木可能砸伤小人
+・其中 30% 砸中头部（脑震荡或昏厥），并触发警报
+・意外概率随种植技能递减（0 级 1% → 20 级 0.2%）
+・意外会在健康面板留下记录，15～30 天后消失
+
+【设置】
+・四项功能可各自开关，所有概率都能用滑块调整
+・可只重置单一分页，或一次还原所有默认值
+・可在存档中途加入
+  </description>
+
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
+
+  <loadAfter>
+    <li>brrainz.harmony</li>
+  </loadAfter>
+</ModMetaData>

@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ================= Human: Harvest Allergies ================= -->
+  <!-- 1. 呼吸道：微纖維炎 -->
+  <HediffDef>
+    <defName>ToxicPlantAllergy_Resp</defName>
+    <label>micro-fibrositis</label>
+    <description>Airway inflammation caused by inhaling toxic botanical micro-fibers. Reduces breathing efficiency and consciousness.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.8, 0.8, 0.3)</defaultLabelColor>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>60000~120000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <capMods>
+          <li><capacity>Breathing</capacity><offset>-0.20</offset></li>
+          <li><capacity>Consciousness</capacity><offset>-0.10</offset></li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- 2. 皮膚：割草夫疹 -->
+  <HediffDef>
+    <defName>ToxicPlantAllergy_Skin</defName>
+    <label>harvester's rash</label>
+    <description>Severe contact dermatitis caused by toxic plant sap. Causes persistent stinging and reduces manipulation.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.8, 0.4, 0.4)</defaultLabelColor>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>60000~120000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <capMods>
+          <li><capacity>Manipulation</capacity><offset>-0.20</offset></li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- 3. 眼部：結膜炎 -->
+  <HediffDef>
+    <defName>ToxicPlantAllergy_Eye</defName>
+    <label>flora ophthalmia</label>
+    <description>Acute eye inflammation caused by toxic pollen. Causes redness, tearing, and reduces sight.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.8, 0.8, 0.3)</defaultLabelColor>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>60000~120000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <capMods>
+          <li><capacity>Sight</capacity><offset>-0.20</offset></li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- 4. 樹木：木屑粉塵 -->
+  <HediffDef>
+    <defName>ToxicPlantAllergy_WoodDust</defName>
+    <label>wood dust inflammation</label>
+    <description>Airway inflammation caused by inhaling fine wood dust and tree spores during woodcutting.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.6, 0.5, 0.4)</defaultLabelColor>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>60000~120000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <capMods>
+          <li><capacity>Breathing</capacity><offset>-0.20</offset></li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- ================= Human: Allergy Antibodies ================= -->
+  <HediffDef>
+    <defName>ToxicAllergyAntibody_Resp</defName>
+    <label>micro-fibrositis antibody</label>
+    <description>Temporary immunity to botanical micro-fibers in the airway.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.8, 0.8, 0.5)</defaultLabelColor>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>180000~300000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+    </comps>
+    <isBad>false</isBad>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>ToxicAllergyAntibody_Skin</defName>
+    <label>harvester's rash antibody</label>
+    <description>Temporary immunity to toxic plant sap on the skin.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.8, 0.5, 0.5)</defaultLabelColor>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>180000~300000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+    </comps>
+    <isBad>false</isBad>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>ToxicAllergyAntibody_Eye</defName>
+    <label>flora ophthalmia antibody</label>
+    <description>Temporary immunity to toxic pollen in the eyes.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.5, 0.8, 0.8)</defaultLabelColor>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>180000~300000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+    </comps>
+    <isBad>false</isBad>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>ToxicAllergyAntibody_WoodDust</defName>
+    <label>wood dust tolerance</label>
+    <description>Temporary immunity to wood dust and tree spores.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.6, 0.5, 0.4)</defaultLabelColor>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>180000~300000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+    </comps>
+    <isBad>false</isBad>
+  </HediffDef>
+
+  <!-- ================= Animal: Grazing Poison (Mild) ================= -->
+  <HediffDef>
+    <defName>ToxicPlantMild</defName>
+    <label>mild gastroenteritis</label>
+    <description>A mild digestive reaction to ingesting toxic flora. Causes temporary vomiting and sluggishness.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.7, 0.7, 0.4)</defaultLabelColor>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>15000~30000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <vomitMtbDays>0.15</vomitMtbDays>
+        <capMods>
+          <li><capacity>Moving</capacity><offset>-0.20</offset></li>
+          <li><capacity>Consciousness</capacity><offset>-0.10</offset></li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- ================= Animal: Grazing Poison (Madness) ================= -->
+  <HediffDef>
+    <defName>ToxicPlantMadness</defName>
+    <label>flora neurotoxin</label>
+    <description>A severe neurological reaction to toxic flora. It hijacks the nervous system, sending the creature into a blind rage.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.9, 0.2, 0.2)</defaultLabelColor>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>30000~60000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <mentalStateGivers>
+          <li>
+            <mentalState>Manhunter</mentalState>
+            <mtbDays>0.001</mtbDays>
+          </li>
+        </mentalStateGivers>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- ================= Animal: Grazing Poison (Lethal) ================= -->
+  <HediffDef>
+    <defName>ToxicPlantPoison</defName>
+    <label>lethal flora toxin</label>
+    <description>A deadly poison from ingesting highly toxic flora. It steadily worsens over time and requires constant veterinary care to suppress.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.8, 0.1, 0.1)</defaultLabelColor>
+    <lethalSeverity>1.0</lethalSeverity>
+    <tendable>true</tendable>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>0.4</severityPerDay>
+      </li>
+      <li Class="HediffCompProperties_TendDuration">
+        <baseTendDurationHours>12</baseTendDurationHours>
+        <severityPerDayTended>-0.6</severityPerDayTended>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <label>initial</label>
+        <vomitMtbDays>0.2</vomitMtbDays>
+      </li>
+      <li>
+        <minSeverity>0.5</minSeverity>
+        <label>severe</label>
+        <lifeThreatening>true</lifeThreatening>
+        <capMods>
+          <li><capacity>Consciousness</capacity><offset>-0.4</offset></li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- Animal: Poison Adaptation (Hidden incubation stage) -->
+  <HediffDef>
+    <defName>ToxicAnimalAdaptation</defName>
+    <label>flora adaptation</label>
+    <description>Temporary adaptation developed after recovering from ingesting toxic flora. Greatly reduces the chance of being poisoned again.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.6, 0.8, 0.6)</defaultLabelColor>
+    <isBad>false</isBad>
+    <initialSeverity>0.01</initialSeverity>
+    <maxSeverity>10.0</maxSeverity>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>1.0</severityPerDay>
+      </li>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>180000~300000</disappearsAfterTicks>
+        <showRemainingTime>false</showRemainingTime>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0.0</minSeverity>
+        <becomeVisible>false</becomeVisible>
+      </li>
+      <li>
+        <minSeverity>1.0</minSeverity>
+        <becomeVisible>true</becomeVisible>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- ================= Tree Cutting Records (Harmless markers) ================= -->
+  <HediffDef Name="ToxicTreeRecordBase" Abstract="True">
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <defaultLabelColor>(0.7, 0.7, 0.7)</defaultLabelColor>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>900000~1800000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="ToxicTreeRecordBase">
+    <defName>ToxicTreeRecordSlip</defName>
+    <label>record: axe slipped</label>
+    <description>This colonist was cut by a slipping axe while chopping wood. This is merely a record and has no effect.</description>
+  </HediffDef>
+
+  <HediffDef ParentName="ToxicTreeRecordBase">
+    <defName>ToxicTreeRecordHit</defName>
+    <label>record: hit by tree</label>
+    <description>This colonist was struck by a falling tree. This is merely a record and has no effect.</description>
+  </HediffDef>
+
+  <HediffDef ParentName="ToxicTreeRecordBase">
+    <defName>ToxicTreeRecordHead</defName>
+    <label>record: tree hit head</label>
+    <description>This colonist took a blow to the head from a falling tree. This is merely a record and has no effect.</description>
+  </HediffDef>
+
+  <!-- ================= Concussion ================= -->
+  <HediffDef>
+    <defName>ToxicTreeConcussion</defName>
+    <label>concussion</label>
+    <description>A concussion caused by a heavy blow to the head. It causes dizziness or immediate unconsciousness, requiring time for the brain to recover.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.8, 0.4, 0.4)</defaultLabelColor>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-1.0</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <label>minor</label>
+        <capMods>
+          <li><capacity>Consciousness</capacity><offset>-0.1</offset></li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.4</minSeverity>
+        <label>moderate</label>
+        <capMods>
+          <li><capacity>Consciousness</capacity><offset>-0.3</offset></li>
+          <li><capacity>Moving</capacity><offset>-0.15</offset></li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.7</minSeverity>
+        <label>comatose</label>
+        <capMods>
+          <li><capacity>Consciousness</capacity><setMax>0.1</setMax></li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 人类采收过敏 -->
+  <ToxicPlantAllergy_Resp.label>急性植物微纤维炎</ToxicPlantAllergy_Resp.label>
+  <ToxicPlantAllergy_Resp.description>植物茎秆断裂时喷溅出的毒性微纤维被吸入肺部。会导致肺泡黏膜肿胀，降低患者的呼吸效率与意识。</ToxicPlantAllergy_Resp.description>
+
+  <ToxicPlantAllergy_Skin.label>割草夫疹</ToxicPlantAllergy_Skin.label>
+  <ToxicPlantAllergy_Skin.description>皮肤直接接触大量带毒性的植物汁液或粗糙纤维所引发的严重接触性皮炎。会产生持续性的轻微刺痛感，并降低双手的操作精度。</ToxicPlantAllergy_Skin.description>
+
+  <ToxicPlantAllergy_Eye.label>异星花粉结膜炎</ToxicPlantAllergy_Eye.label>
+  <ToxicPlantAllergy_Eye.description>高浓度的刺激性花粉飘入眼中引发的急性发炎。会导致眼白充血、不断流泪并伴随畏光，大幅降低视觉能力。</ToxicPlantAllergy_Eye.description>
+
+  <ToxicPlantAllergy_WoodDust.label>急性木屑粉尘炎</ToxicPlantAllergy_WoodDust.label>
+  <ToxicPlantAllergy_WoodDust.description>砍伐树木时吸入大量细小木屑与树皮孢子所引发的呼吸道发炎。会导致患者不断剧烈干咳，显著降低呼吸效率。</ToxicPlantAllergy_WoodDust.description>
+
+  <!-- 人类过敏抗体 -->
+  <ToxicAllergyAntibody_Resp.label>微纤维代谢抗体</ToxicAllergyAntibody_Resp.label>
+  <ToxicAllergyAntibody_Resp.description>呼吸道已经适应了植物微纤维，短期内几乎不会再引发呼吸道发炎。</ToxicAllergyAntibody_Resp.description>
+
+  <ToxicAllergyAntibody_Skin.label>皮炎适应性</ToxicAllergyAntibody_Skin.label>
+  <ToxicAllergyAntibody_Skin.description>皮肤已经适应了植物汁液的刺激，短期内几乎不会再引发严重的接触性皮炎。</ToxicAllergyAntibody_Skin.description>
+
+  <ToxicAllergyAntibody_Eye.label>眼部花粉免疫</ToxicAllergyAntibody_Eye.label>
+  <ToxicAllergyAntibody_Eye.description>眼部黏膜已经暂时适应了当地花粉，短期内几乎不会再引发结膜炎。</ToxicAllergyAntibody_Eye.description>
+
+  <ToxicAllergyAntibody_WoodDust.label>粉尘耐受性</ToxicAllergyAntibody_WoodDust.label>
+  <ToxicAllergyAntibody_WoodDust.description>呼吸道与免疫系统已经暂时适应了高浓度的木屑粉尘，短期内几乎不会再引发严重的干咳与发炎。</ToxicAllergyAntibody_WoodDust.description>
+
+  <!-- 动物啃草中毒 -->
+  <ToxicPlantMild.label>轻微肠胃炎</ToxicPlantMild.label>
+  <ToxicPlantMild.description>吃到毒草引起的轻度消化不良。会导致短暂的呕吐与行动迟缓。</ToxicPlantMild.description>
+
+  <ToxicPlantMadness.label>植物神经毒</ToxicPlantMadness.label>
+  <ToxicPlantMadness.description>摄入神经毒草引起的严重神经反应。毒素会劫持大脑，使生物陷入盲目的狂暴状态。</ToxicPlantMadness.description>
+
+  <ToxicPlantPoison.label>致命植物毒素</ToxicPlantPoison.label>
+  <ToxicPlantPoison.description>摄入剧毒植物引起的致命中毒。毒性会随时间恶化，需要持续的兽医照护来压制。</ToxicPlantPoison.description>
+  <ToxicPlantPoison.stages.0.label>初期</ToxicPlantPoison.stages.0.label>
+  <ToxicPlantPoison.stages.1.label>严重</ToxicPlantPoison.stages.1.label>
+
+  <ToxicAnimalAdaptation.label>毒草适应性</ToxicAnimalAdaptation.label>
+  <ToxicAnimalAdaptation.description>从毒草中毒恢复后产生的短暂适应性。能大幅降低再次中毒的机率。</ToxicAnimalAdaptation.description>
+
+  <!-- 伐木意外纪录与伤害 -->
+  <ToxicTreeRecordSlip.label>纪录：斧头滑脱</ToxicTreeRecordSlip.label>
+  <ToxicTreeRecordSlip.description>这名殖民者在砍树时因斧头滑脱而割伤。这仅是一个纪录状态，没有实质影响。</ToxicTreeRecordSlip.description>
+
+  <ToxicTreeRecordHit.label>纪录：被树干砸中</ToxicTreeRecordHit.label>
+  <ToxicTreeRecordHit.description>这名殖民者在砍树时被倒下的树干砸中。这仅是一个纪录状态，没有实质影响。</ToxicTreeRecordHit.description>
+
+  <ToxicTreeRecordHead.label>纪录：树干砸中头部</ToxicTreeRecordHead.label>
+  <ToxicTreeRecordHead.description>这名殖民者在砍树时头部遭到倒下的树干重击。这仅是一个纪录状态，没有实质影响。</ToxicTreeRecordHead.description>
+
+  <ToxicTreeConcussion.label>脑震荡</ToxicTreeConcussion.label>
+  <ToxicTreeConcussion.description>头部遭到重击引起的脑震荡。会导致晕眩或立即昏迷，需要时间让大脑慢慢恢复。</ToxicTreeConcussion.description>
+  <ToxicTreeConcussion.stages.0.label>轻微</ToxicTreeConcussion.stages.0.label>
+  <ToxicTreeConcussion.stages.1.label>中度</ToxicTreeConcussion.stages.1.label>
+  <ToxicTreeConcussion.stages.2.label>昏迷</ToxicTreeConcussion.stages.2.label>
+</LanguageData>

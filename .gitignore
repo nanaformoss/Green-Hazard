@@ -1,0 +1,9 @@
+# Visual Studio / .NET 暫存檔
+.vs/
+[Oo]bj/
+[Bb]in/
+*.user
+
+# 排除系統產生的隱藏檔
+.DS_Store
+Thumbs.db
